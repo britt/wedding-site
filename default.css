@@ -14,24 +14,33 @@ Feel free to use and modify but please provide credits.
 	padding: 0;
 }
 
-a {color: #36C;}
+a {
+	color: #253319;
+}
 
-a:hover {color: #06F;}
+a:hover {color: #69774d;}
 
 body {
 	background: #4E5D3C url(img/bg.jpg);
 	color: #444;
-	font: normal 62.5% "Lucida Sans Unicode",sans-serif;
+	font: normal 62.5% serif;
 	margin: 0;
 }
 
-p,blockquote,ul {margin: 1.2em 0;}
+p,blockquote,ul {
+	font-size: 1.2em;
+	margin: 1.2em 0;
+}
 
 h1 {font: normal 1.6em serif;}
 
 h2 {
 	font: normal 1.4em serif;
 	margin: 3px 0 1px;
+}
+
+h3 {
+	font: bold 1.3em serif;
 }
 
 ul {margin-left: 1.8em;}
@@ -173,4 +182,8 @@ img.left {margin: 0 18px 6px 0;}
 .footer a:hover {
 	color: #333;
 	text-decoration: underline;
+}
+
+a.subtext {
+	font-size: 0.7em;
 }
