@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="description" />
+    <link rel="stylesheet" type="text/css" href="default.css" media="screen" />
+    <title>
+      {% if page.title %}
+         Dara &amp; Britt are getting married : {{ page.title }}
+      {% else %}
+         Dara &amp; Britt are getting married
+      {% endif %}      
+    </title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="gfx"></div>
+      <div class="top">
+        <div class="navigation">
+          <a href="/" rel="home">home</a> 
+          <a href="/location.html">location</a> 
+          <a href="/wedding_party.html">wedding party</a> 
+          <a href="/travelling.html">travelling</a> 
+          <a href="/registry.html">registry</a>
+        </div>        
+        <div class="pattern"></div>
+        <div class="header">
+          <h1>
+            Dara &amp; Britt
+          </h1>
+          <h2>
+            are getting married
+            <br/>
+            August 29th, 2009
+          </h2>
+        </div>
+        <div class="pattern"></div>
+      </div>
+      <div class="content">
+        <div class="spacer"></div>
+        {{ content }}
+      </div>
+      <div class="footer">
+        &copy; 2009 <a href="index.html">Website.com</a>. Valid <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> &amp; <a href="http://validator.w3.org/check?uri=referer">XHTML</a>. Template design by <a href="http://arcsin.se">Arcsin</a>
+      </div>&gt;
+    </div>
+  </body>
+</html>
