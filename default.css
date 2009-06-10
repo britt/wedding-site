@@ -197,3 +197,18 @@ div.featured_link {
 div.section {
 	margin-top: 25px;
 }
+
+ul.wedding_party {
+	margin-left: 0;
+	padding-left: 0;
+	list-style-type: none;
+}
+
+ul.wedding_party li {
+	margin-bottom: 25px;
+}
+
+ul.wedding_party li .name {
+	font-size: 125%;
+	margin-bottom: 5px;
+}
