@@ -187,3 +187,13 @@ img.left {margin: 0 18px 6px 0;}
 a.subtext {
 	font-size: 0.7em;
 }
+
+div.featured_link {
+	font-size: 125%;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+
+div.section {
+	margin-top: 25px;
+}
