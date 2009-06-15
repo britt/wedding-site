@@ -212,3 +212,15 @@ ul.wedding_party li .name {
 	font-size: 125%;
 	margin-bottom: 5px;
 }
+
+ul.registries li, ul.registries li div.explanation {
+	margin-bottom: 10px;
+}
+
+ul.registries li div.explanation a {
+	font-size: 100%;
+}
+
+ul.registries li a  {
+	font-size: 115%;
+}
