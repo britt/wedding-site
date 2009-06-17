@@ -224,3 +224,8 @@ ul.registries li div.explanation a {
 ul.registries li a  {
 	font-size: 115%;
 }
+
+ul.restaurants {
+	list-style-type: square;
+	font-size: 100%;
+}
